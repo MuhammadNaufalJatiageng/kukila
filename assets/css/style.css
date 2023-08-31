@@ -1,0 +1,362 @@
+:root {
+    --subtitle : rgb(105, 105, 105);
+    --main: rgb(158, 210, 190);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.shadow {
+    box-shadow: 2px 2px 7px 1px rgba(153,153,153,0.75);
+    -webkit-box-shadow: 2px 2px 7px 1px rgba(153,153,153,0.75);
+    -moz-box-shadow: 2px 2px 7px 1px rgba(153,153,153,0.75);
+}
+
+/* Header */
+section#header {
+    position: relative;
+}
+li.nav-item a{
+    font-size: 1.2rem;
+}
+#daftar {
+    background-color: rgb(0, 139, 253);
+}
+    /* Hero Image */
+    section#hero {
+        background-color: var(--main);
+    }
+    div.heroImg {
+        width: 100%;
+        height: 83vh;
+        overflow: hidden;
+    }
+    div.heroImg img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    /* End Hero image */
+    
+     /* Search Hero */
+    div#search {
+        position: absolute;
+        top: 350px;
+        left: 35%;
+        width: 30%;
+    }
+    div#search input {
+        font-size: 1.2em;
+        width: 100%;
+        padding: 7px;
+        border-radius: 7px;
+        border: none;
+        opacity: 0.75;
+    }
+    div.akses-cepat a div{
+     background-color: rgba(255, 255, 255, 0.25);  
+     backdrop-filter: blur(5px);
+     margin: 35px 10px; 
+     /* opacity: 0.5; */
+    }
+    div.akses-cepat a div h4 {
+        color: white;
+    }
+    /* End Search Hero */
+/* End Header */
+
+/* Main */
+main section {
+    padding-top: 70px;
+}
+.title {
+    text-align: center;
+}
+.sub-title {
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--subtitle);
+}
+    /* Menu Rekomendasi */
+    div.wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    div.menu-rekomendasi {
+        width: 24.5%;
+        position: relative;
+        margin: 0 3px 20px;
+    }
+    div.menu-rekomendasi img{
+        width: 100%;
+        height: 190px;
+        border-radius: 10px;
+    }
+    div.label {
+        background-color: rgba(50, 50, 50, 0.75);
+        position: absolute;
+        text-align: center;
+        color: aliceblue;
+        bottom: 0;
+        width: 100%;
+        height: 30%;
+        border-radius: 0 0 10px 10px;
+    }
+    /* End Menu Rekomendasi */
+
+    /* Promo */
+    .promo {
+        height: 400px;
+        align-items: end;
+    }
+    div.promo-item {
+        position: relative;
+        background-color: var(--main);
+        width: 48%;
+        height: 80%;
+        border-radius: 20px;
+    }
+
+    div.promo-item a figure {
+        position: absolute;
+        width: 90%;
+        height: 85%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    div.promo-item a div {
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+    }
+    
+    div.promo-item a figure img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    div.promo-item a div p {
+        font-size: 1.1rem;
+    }
+    /* End Promo */
+
+    /* Lokal */
+    .card {
+        cursor: pointer;
+    }
+
+    div.local-info p,
+    div.local-price p {
+        margin: 0;
+        color: var(--subtitle);
+    }
+
+    div.local-price h4 {
+        color: rgb(222, 56, 47);
+    }
+
+    div.local-item img {
+        aspect-ratio: 16 / 11;
+        object-fit: cover;
+    }
+
+    .wrapper-scroller {
+        display: grid;
+        grid-auto-flow: column;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    .wrapper-scroller::-webkit-scrollbar {
+        display: none;
+    }
+    section#lokal div {
+        position: relative;
+    }
+
+    #right,
+    #left {
+        background-color: white;
+        top: 50%;
+        height: 46px;
+        width: 46px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 46px;
+        border-radius: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    #left {
+        left: -13px;
+        z-index: 10;
+    }
+    #right {
+        right: -23px;
+    }
+    /* End Lokal */
+
+    /* Menu internasional */
+    div.inter-item {
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    div.inter-item img {
+        width: 100%;
+        aspect-ratio: 4 /3;
+        object-fit: cover;
+    }
+    div.inter-item div{
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        bottom: -32%;
+        left: 50%;
+        opacity: 0.9;
+        transform: translate(-50%, -50%);
+        background: rgb(200,228,178);
+        background: linear-gradient(0deg, rgba(200,228,178,1) 0%, rgba(200,228,178,1) 25%, rgba(0,212,255,0) 100%);
+    }
+    div.inter-item div h2 {
+        position: absolute;
+        bottom: -5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* End Menu internasional */
+/* End Main */
+
+/* Footer */
+
+footer {
+    /* background-color: var(--main); */
+    margin-top: 30px;
+    padding: 1px 10px 10px 10px;
+    background: rgb(126,170,146);
+    background: linear-gradient(0deg, rgba(126,170,146,1) 65%, rgba(126,170,146,0.75) 73%, rgba(126,170,146,0.5) 81%, rgba(126,170,146,0.25) 89%, rgba(126,170,146,0) 100%);
+}
+
+.footer-wrapper {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+div.footer-wrapper section {
+    width: 20%;
+}
+div.footer-wrapper section:first-child div:last-child h4 {
+    margin: 3% 0 0 6%;
+}
+footer .footer-wrapper{
+    margin: 30px 0 0 0;
+}
+
+div.footer-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+div.footer-wrapper section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+div.follow-us {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+div.follow-us a {
+    margin-right: 10px;
+}
+.np {
+    padding: 0;
+}
+/* End Footer */
+
+
+@media screen and (max-width: 1450px){
+    html {
+        font-size: 15px;
+    }
+    div#search {
+        top: 270px;
+    }
+}
+@media screen and (max-width: 1200px){
+    html {
+        font-size: 12px;
+    }
+    div#search {
+        top: 240px;
+        width: 40%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 1024px){
+    html {
+        font-size: 10px;
+    }
+    div#search {
+        top: 200px;
+        width: 40%;
+        left: 30%;
+    }
+    
+}
+@media screen and (max-width: 850px){
+    html {
+        font-size: 10px;
+    }
+    div#search {
+        top: 150px;
+        width: 40%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 500px){
+    div#search {
+        top: 210px;
+        width: 50%;
+        left: 25%;
+    }
+    div.heroImg {
+        height: 50vh;
+    }
+    div.menu-rekomendasi {
+        width: calc(90%/2);
+    }
+    section#promo div.wrapper {
+        flex-wrap: nowrap;
+        flex-flow: column;
+        margin: auto;
+    }
+    div.promo div{
+        margin-top: 40px;
+        width: 90%;
+    }
+    footer {
+        padding-top: 25px;
+    }
+}

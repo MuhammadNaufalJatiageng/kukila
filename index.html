@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kukila</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <section id="header">
+      <nav class="navbar navbar-expand-lg position-fixed p-3" id="navbar">
+          <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="assets/logo/kukila.png" alt="" width="170">
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#">Jadi Partner kukila</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold " href="#">Cek Pesanan</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fw-bold dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    IDR
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold " href="#">Masuk</a>
+                </li>
+                <li class="nav-item rounded-3" id="daftar">
+                  <a class="nav-link fw-bold" href="#">Daftar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+      <section id="hero">
+          <div class="heroImg">
+              <img src="assets/img/hero.jpg" alt="">
+          </div>
+      
+          <div id="search">
+              <input type="text" placeholder="Cari Destinasi Wisata Disini...">
+              <div class="akses-cepat d-flex justify-content-center">
+                <a href="#rekomendasi">
+                  <div class="p-3 rounded-5">
+                    <h4>Rekomendasi</h4>
+                  </div>
+                </a>
+                <a href="#promo">
+                  <div class="p-3 rounded-5">
+                    <h4>Promo</h4>
+                  </div>
+                </a>
+                <a href="#lokal">
+                  <div class="p-3 rounded-5">
+                    <h4>Domestik</h4>
+                  </div>
+                </a>
+                <a href="#international">
+                  <div class="p-3 rounded-5">
+                    <h4>international</h4>
+                  </div>
+                </a>
+              </div>
+          </div>
+      </section>
+    </section>
+
+    <main>
+      <section class="container mt-5" id="rekomendasi">
+        <h2 class="title pt-5">Rekomendasi wisata untuk mu</h2>
+        <p class="sub-title">Destinasi wisata terbaik hanya untukmu.</p>
+        <div class="wrapper mt-4">
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/bromo.jpg" alt="">
+              <div class="label">
+                <h1>Bromo</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/padaIsland.jpg" alt="">
+              <div class="label">
+                <h1>Padar Island</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/italia.jpg" alt="">
+              <div class="label">
+                <h1>Italia</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/singapore.jpg" alt="">
+              <div class="label">
+                <h1>Singapura</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/france.jpg" alt="">
+              <div class="label">
+                <h1>Prancis</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/rajaAmpat.jpg" alt="">
+              <div class="label">
+                <h1>Raja Ampat</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/rinjani.jpg" alt="">
+              <div class="label">
+                <h1>Rinjani</h1>
+              </div>
+            </a>
+          </div>
+          <div class="menu-rekomendasi">
+            <a href="#">
+              <img src="assets/img/swiss.jpg" alt="">
+              <div class="label">
+                <h1>Swiss</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="promo">
+        <h2 class="title pt-5">Promo menarik untuk liburan lebih irit!</h2>
+        <div class="wrapper promo justify-content-between">
+          <div class="promo-item shadow">
+            <a href="#">
+              <figure class="shadow">
+                <img src="assets/img/diskon.jpg" alt="" >
+              </figure>
+              <div>
+                <h3>Diskon hingga RP. 100.000,-</h3>
+                <p>Dapatkan potongan harga sebesar 20% dari total pembelian.</p>
+              </div>
+            </a>
+          </div>
+          <div class="promo-item shadow">
+            <a href="#">
+              <figure class="shadow">
+                <img src="assets/img/promo.png" alt="" >
+              </figure>
+              <div>
+                <h3>Buy one get one</h3>
+                <p>Dapatkan gratis 1 tiket hanya dengan membeli 1 tiket.</p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+         
+      </section>
+
+      <section class="container" id="lokal" >
+        <h2 class="title pt-5">Destinasi wisata Indonesia</h2>
+        <p class="sub-title">Jelajahi keindahan alam Indonesia yang tidak ada habisnya.</p>
+        <div>
+          <i id="left" class="bi bi-arrow-left"></i>
+          <div class="wrapper-scroller scroll-snap p-5">
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/surabaya.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Surabaya</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 759.633</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/makassar.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Makassar</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.727.165</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/bali.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Bali</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.480.856</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/banjarmasin.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Banjarmasin</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.141.196</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/aceh.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Aceh</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.713.346</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/papua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Jayapura</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 4.552.670</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow me-3" style="width: 18.5rem;">
+              <img src="assets/img/lombok.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Lombok</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.478.040</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card local-item shadow" style="width: 18.5rem;">
+              <img src="assets/img/padang.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Jakarta -> Padang</h5>
+                <div class="local-info">
+                  <p class="card-text">dd-mm-yyyy</p>
+                  <p class="card-text">Maskapai</p>
+                  <p class="card-text">Ekonomi</p>
+                </div>
+                <div class="local-price mt-4">
+                  <p class="card-text">Mulai dari</p>
+                  <h4>IDR 1.078.814</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <i id="right" class="bi bi-arrow-right"></i>
+        </div>  
+      </section>
+
+      <section class="container" id="international">
+        <h2 class="title pt-5">Ide petualangan ke luar negeri!</h2>
+        <p class="sub-title">Ada beragam aktivitas keren di berbagai negara yang harus kamu cobain, nih!</p>
+        <div class="wrapper">
+          <div class="inter-item">
+            <img src="assets/img/italia.jpg" alt="">
+            <div>
+              <h2>Italia</h2>
+            </div>
+          </div>
+          <div class="inter-item">
+            <img src="assets/img/france.jpg" alt="">
+            <div>
+              <h2>Prancis</h2>
+            </div>
+          </div>
+          <div class="inter-item">
+            <img src="assets/img/swiss.jpg" alt="">
+            <div>
+              <h2>Swiss</h2>
+            </div>
+          </div>
+          <div class="inter-item">
+            <img src="assets/img/singapore.jpg" alt="">
+            <div>
+              <h2>Singapura</h2>
+            </div>
+          </div>
+          <div class="inter-item">
+            <img src="assets/img/japan.jpg" alt="">
+            <div>
+              <h2>Jepang</h2>
+            </div>
+          </div>
+          <div class="inter-item">
+            <img src="assets/img/thailand.jpg" alt="">
+            <div>
+              <h2>Thailand</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <section>
+          <div>
+            <img src="assets/logo/kukila.png" alt="" width="80%">
+          </div>
+          <div>
+            <h4>Believe in yourself</h4>
+          </div>
+        </section>
+        <section>
+            <div class="footer-header">
+                CUSTOMER SERVICE
+            </div>
+            <ul class="np">
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="footer-header">
+                HELP
+            </div>
+            <ul class="np">
+                <li><a href="#">Exchanges & Returns</a></li>
+                <li><a href="#">Payment Information</a></li>
+                <li><a href="#">Check Order</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="footer-header">
+                BUSSINESS
+            </div>
+            <ul class="np">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pop-Up Store</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </section>
+        <section>
+            <div class="footer-header">
+                FOLLOW US
+            </div>
+            <div class="follow-us">
+                <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+            </div>
+        </section>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      feather.replace()
+    </script>
+    <script src="assets/js/scroll.js"></script>
+    <script src="tes.js"></script>
+  </body>
+</html>
